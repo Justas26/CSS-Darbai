@@ -1,0 +1,32 @@
+body{
+	padding: 50px;
+}
+.column{
+	flex: 1;	
+}
+.row{
+	flex-direction: row; 
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.column p {
+color:#DEDDDD;	
+font-size:25px;
+font-family: 'Oswald', sans-serif;
+}
+.column h1{
+font-size: 30px;
+font-family: 'Oswald', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
