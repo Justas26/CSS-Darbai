@@ -1,0 +1,98 @@
+*{
+    margin:0;
+    padding:0;
+}
+ 
+html,body{
+    height: 100%;
+}
+body{
+    width:80%;
+    margin: 0 auto;
+}
+h1 {
+    color: #FFFFFF;
+    text-align: center;
+    }
+
+.container{
+    height:100%;
+    display: flex;
+    flex-direction: column;
+}
+.container2{
+     display: flex;
+    flex-direction: row;
+    flex: 5;
+}
+.container3 {
+    display: flex;
+    flex-direction: row;
+    flex: 2;
+}
+.herb{
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    margin: 0 1rem 1rem 0;
+}
+
+header{
+	background-color:#71E8FA;
+    padding:20px;
+    text-align:center;
+    text-transform: uppercase;
+    margin: 0 1rem 1rem 0;
+}
+.hero{
+    display: flex;
+    flex: 3;
+    justify-content: center;
+    background-color: #CDCBC4;
+    margin: 0 1rem 1rem 0;
+}
+aside {
+    display: flex;
+    flex: 5;
+    justify-content: center;
+    background-color:#6CD50D;
+    margin: 0 1rem 1rem 0;
+    } 
+main {
+    display: flex;
+    flex: 6;
+    justify-content: center;
+    background-color: #F0D514;
+}
+.content{
+     display: flex;
+    flex-direction: column;
+    flex: 4;
+    }
+.content2{
+    display: flex;
+    flex: 3;
+    justify-content: center;
+    background-color: #9F989D;
+    margin:  1rem 0 1rem 0;
+}
+.images{
+    display: flex;
+    flex: 2;
+    justify-content: center;
+    background-color: #0D9F1E;
+    margin: 0 1rem 1rem 0;
+}
+.posts{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    background-color: #F3B6EA;
+    margin: 0 1rem 1rem 0;
+}
+footer{
+	text-align: center;
+	background-color: #FED712;
+    margin: 0 1rem 1rem 0;
+    padding: 20px;
+}
